@@ -40,7 +40,7 @@ pipeline {
             steps {
                 script {
                     // Deploy the WireGuard VPN server using Docker Compose directly from the workspace
-                    sh 'docker-compose -f docker-compose.yaml up -d'
+                    sh 'sudo docker-compose -f docker-compose.yaml up -d'
                 }
             }
         }
