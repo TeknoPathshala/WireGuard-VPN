@@ -16,7 +16,7 @@ pipeline {
             steps {
                 script {
                     // Load the Docker image from the .tar file
-                    sh 'docker load -i /home/tekno/wireguard.tar'
+                    sh 'docker load -i /home/tekno/wiregaurd.tar'
                 }
             }
         }
